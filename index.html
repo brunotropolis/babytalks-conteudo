@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Baby Talks · Central de Conteúdo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --lilas:#8E9BD1; --lilas-esc:#6F7EB8; --magenta:#C95FA3; --azul:#1F2A56;
+    --branco:#F8F7F4; --rosa:#F4DCE8; --lavanda:#E4E6F2; --verde:#2EA66C;
+    --azul-suave:#4A5578;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'DM Sans',sans-serif;background:var(--branco);color:var(--azul);min-height:100vh;padding:48px 20px 70px}
+  .wrap{max-width:920px;margin:0 auto}
+  header.top{text-align:center;margin-bottom:40px}
+  .eyebrow{display:inline-block;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--magenta);font-weight:700;margin-bottom:12px}
+  header.top h1{font-family:'Fraunces',serif;font-size:42px;line-height:1.05;color:var(--azul)}
+  header.top p{font-size:15px;color:var(--azul-suave);margin-top:12px;max-width:560px;margin-left:auto;margin-right:auto}
+  .facts{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:18px}
+  .fact{background:#fff;border:1px solid var(--lavanda);border-radius:100px;padding:7px 15px;font-size:13px;font-weight:600;color:var(--azul-suave)}
+
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  @media(max-width:720px){.grid{grid-template-columns:1fr}header.top h1{font-size:32px}}
+
+  .card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--lavanda);border-radius:20px;padding:28px;text-decoration:none;color:inherit;transition:.2s;border-top:5px solid var(--lilas);box-shadow:0 14px 34px rgba(31,42,86,.06)}
+  a.card:hover{transform:translateY(-5px);box-shadow:0 22px 48px rgba(31,42,86,.13);border-color:var(--lilas)}
+  .card .ic{font-size:34px;margin-bottom:14px}
+  .card h2{font-family:'Fraunces',serif;font-size:23px;color:var(--azul);margin-bottom:8px}
+  .card p{font-size:14px;color:var(--azul-suave);line-height:1.55;flex:1}
+  .card .go{margin-top:18px;display:inline-flex;align-items:center;gap:7px;font-weight:700;font-size:14px;color:var(--magenta)}
+  .card.persona{border-top-color:var(--magenta)}
+  .card.calendario{border-top-color:var(--lilas-esc)}
+  .card.soon{border-top-color:var(--lavanda);opacity:.72;cursor:default;box-shadow:none}
+  .card.soon .go{color:var(--lilas-esc)}
+  .badge-soon{display:inline-block;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#fff;background:var(--lilas-esc);padding:3px 10px;border-radius:100px;margin-bottom:14px;width:fit-content}
+
+  footer{text-align:center;margin-top:44px;font-size:13px;color:var(--lilas-esc)}
+  footer .serif{font-family:'Fraunces',serif;font-size:18px;color:var(--magenta);font-style:italic;margin-bottom:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <span class="eyebrow">Central de Conteúdo · @babytalks.evento</span>
+    <h1>Baby Talks — Conteúdo</h1>
+    <p>O painel de bastidor da divulgação do evento: quem é o nosso público e o que a gente publica até o dia 22/08.</p>
+    <div class="facts">
+      <span class="fact">📅 22 de agosto · Curitiba</span>
+      <span class="fact">🎯 Foco: aspiracional da persona</span>
+      <span class="fact">📌 3 posts/semana</span>
+    </div>
+  </header>
+
+  <div class="grid">
+    <a class="card persona" href="persona.html">
+      <div class="ic">👩🏽‍🍼</div>
+      <h2>Persona</h2>
+      <p>Quem é a Marina, 33 — a "primeira viagem informada". O que ela teme, o que ela sonha e como a gente fala com ela. Base de tudo.</p>
+      <span class="go">Abrir persona →</span>
+    </a>
+
+    <a class="card calendario" href="calendario.html">
+      <div class="ic">🗓️</div>
+      <h2>Calendário editorial</h2>
+      <p>Os posts do feed até o evento, por data, pilar e formato — cada um com a legenda pronta pra copiar e postar.</p>
+      <span class="go">Abrir calendário →</span>
+    </a>
+
+    <div class="card soon">
+      <span class="badge-soon">Em breve</span>
+      <div class="ic">🚀</div>
+      <h2>Programar &amp; postar</h2>
+      <p>Montar cada post (arte + legenda + data/hora) e disparar direto pro Instagram — ou receber o post pronto na hora certa pra publicar em 1 toque.</p>
+      <span class="go">Em construção</span>
+    </div>
+  </div>
+
+  <footer>
+    <div class="serif">Um dia, no teatro, pra o casal sair sabendo o que fazer.</div>
+    Central interna · não indexada
+  </footer>
+</div>
+</body>
+</html>
