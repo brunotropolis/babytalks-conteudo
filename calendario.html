@@ -15,11 +15,15 @@
     --azul-suave:#4A5578;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:'DM Sans',sans-serif;background:var(--branco);color:var(--azul);line-height:1.55;padding:32px 20px 80px}
+  body{font-family:'DM Sans',sans-serif;background:var(--branco);color:var(--azul);line-height:1.55;padding:0 20px 80px}
   .wrap{max-width:1100px;margin:0 auto}
   h1,h2,h3,.serif{font-family:'Fraunces',serif}
 
-  header.top{text-align:center;margin-bottom:28px}
+  .backbar{max-width:1100px;margin:0 auto;padding:18px 0 4px}
+  .backbar a{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;color:var(--lilas-esc);text-decoration:none;background:#fff;border:1px solid var(--lavanda);padding:8px 15px;border-radius:100px;transition:.2s}
+  .backbar a:hover{color:var(--magenta);border-color:var(--magenta)}
+
+  header.top{text-align:center;margin-bottom:28px;padding-top:14px}
   .kicker{display:inline-block;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--magenta);font-weight:700;margin-bottom:10px}
   header.top h1{font-size:38px;line-height:1.1;color:var(--azul);margin-bottom:12px}
   .facts{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:8px}
@@ -69,6 +73,7 @@
 </style>
 </head>
 <body>
+<div class="backbar"><a href="https://conteudo.babytalks.com.br/">← Central de Conteúdo</a></div>
 <div class="wrap">
   <header class="top">
     <span class="kicker">Calendário de conteúdo · Instagram @babytalks.evento</span>
@@ -90,14 +95,14 @@
       <span class="pill" style="background:#6F7EB8">Experiência</span>
       <span class="pill" style="background:#2EA66C">Conversão</span>
     </div>
-    <p class="note"><b>Voz:</b> fala COM a Marina, no aspiracional — o medo e o sonho dela em 1ª pessoa. Acolhedor, real, sem romantizar e sem travessão. <b>A pesquisa e o guia são munição interna: nunca viram legenda</b> (nada de "89% na pesquisa", "é tipo um TEDx", "entrevistamos 148 gestantes"). Persona completa em <a href="persona.html">persona.html</a>.</p>
+    <p class="note"><b>Voz:</b> fala COM a Marina, no aspiracional — o medo e o sonho dela em 1ª pessoa. Acolhedor, real, sem romantizar e sem travessão. <b>A pesquisa e o guia são munição interna: nunca viram legenda.</b> Persona completa em <a href="persona.html">persona.html</a>. &nbsp;·&nbsp; <b>Ingressos:</b> Individual R$180 · Duplo R$260 (Diskingressos).</p>
   </div>
 
   <div id="app"></div>
 
   <footer class="end">
     <div class="big">Você não precisa descobrir tudo sozinha, no susto.</div>
-    22 posts · 03/07 a 21/08 · + cobertura ao vivo no dia 22/08
+    21 posts · 06/07 a 21/08 · + cobertura ao vivo no dia 22/08
   </footer>
 </div>
 
@@ -111,11 +116,11 @@ const PILAR = {
 };
 
 const FASES = [
-  {num:'01', titulo:'Espelho & Conceito', range:'03/07 – 13/07',
+  {num:'01', titulo:'Espelho & Conceito', range:'06/07 – 15/07',
    intro:'A Marina se reconhece no medo dela e entende que existe um caminho pra chegar preparada. Aqui plantamos o desejo, não o dado.',
    stories:'<b>Stories da semana:</b> caixinha "o que mais te dá insegurança na chegada do bebê?" · enquete "você sente que tem informação DEMAIS e mesmo assim insegura?" · reposta das respostas mais tocantes.',
    posts:[
-    {n:1,dia:'03',mes:'Jul',w:'Sex',pilar:'espelho',fmt:'Reels',
+    {n:1,dia:'06',mes:'Jul',w:'Seg',pilar:'espelho',fmt:'Reels',
      hook:'Você já deitou pra dormir com a cabeça a mil pensando na chegada do bebê?',
      criativo:'<b>Criativo:</b> Reels intimista — gestante à noite, luz baixa, texto das dúvidas surgindo na tela. Vira o clima no fim ("respira, você não tá sozinha") + revela o evento.',
      cap:`Você já deitou pra dormir e ficou com a cabeça a mil? 🌙
@@ -134,7 +139,7 @@ Tá chegando a Baby Talks: um sábado, num teatro em Curitiba, pra você e seu c
 Salva esse post e me conta aqui embaixo: qual dessas dúvidas mais tira o seu sono hoje? 💛
 
 #BabyTalks #Gestante #Gravidez #Curitiba #Maternidade #GestantesCuritiba`},
-    {n:2,dia:'06',mes:'Jul',w:'Seg',pilar:'conceito',fmt:'Carrossel',
+    {n:2,dia:'08',mes:'Jul',w:'Qua',pilar:'conceito',fmt:'Carrossel',
      hook:'Imagina chegar no dia do parto tranquila, sabendo exatamente o que fazer.',
      criativo:'<b>Criativo:</b> Carrossel suave (5-6 cards) — capa com a frase-sonho, cada card uma cena da versão preparada dela. Fotos de casais reais, luz natural.',
      cap:`Fecha os olhos e imagina por um segundo. 💭
@@ -153,7 +158,7 @@ Não é sorte. É preparo. 💛
 Arrasta pro lado e sente esse alívio 👉
 
 #BabyTalks #Gestante #Gravidez #PréNatal #Curitiba #Maternidade`},
-    {n:3,dia:'08',mes:'Jul',w:'Qua',pilar:'espelho',fmt:'Carrossel',
+    {n:3,dia:'10',mes:'Jul',w:'Sex',pilar:'espelho',fmt:'Carrossel',
      hook:'"Vou conseguir amamentar?" Se essa pergunta já passou pela sua cabeça, esse post é seu.',
      criativo:'<b>Criativo:</b> Carrossel acolhedor — abre com a dúvida, valida o medo, fecha com "amamentar se aprende". Imagem de amamentação real e serena.',
      cap:`"Vai doer?" "Será que meu leite vai ser suficiente?" "E se o bebê não pegar?" 🍼
@@ -169,7 +174,7 @@ Na Baby Talks você vê a pega correta na prática, entende os primeiros dias e 
 Comenta 🤍 se amamentar é um dos seus maiores medos hoje.
 
 #Amamentação #Gestante #BabyTalks #Maternidade #Gravidez #Curitiba`},
-    {n:4,dia:'10',mes:'Jul',w:'Sex',pilar:'conceito',fmt:'Reels',
+    {n:4,dia:'13',mes:'Jul',w:'Seg',pilar:'conceito',fmt:'Reels',
      hook:'Não é mais um curso online que você assiste e esquece.',
      criativo:'<b>Criativo:</b> Reels dinâmico — celular com mil abas/vídeos salvos vs. a cena do teatro ao vivo. Contraste "informação demais" x "clareza".',
      cap:`Você já salvou mil vídeos, leu mil textos e mesmo assim continua insegura? 📱
@@ -181,7 +186,7 @@ A Baby Talks é o contrário disso: um dia inteiro, ao vivo, num teatro, com que
 📅 22 de agosto, Teatro Santo Anjo Barigui, Curitiba
 
 #BabyTalks #Gestante #Gravidez #Curitiba #Maternidade #EventoCuritiba`},
-    {n:5,dia:'13',mes:'Jul',w:'Seg',pilar:'conceito',fmt:'Carrossel',
+    {n:5,dia:'15',mes:'Jul',w:'Qua',pilar:'conceito',fmt:'Carrossel',
      hook:'Esperar um bebê é coisa de dois. Então prepara os dois.',
      criativo:'<b>Criativo:</b> Carrossel com casal grávido na capa. Cards do que ele aprende. CTA de marcação. Tom de parceria, não de cobrança.',
      cap:`Você não precisa carregar tudo sozinha. 💛
@@ -203,14 +208,14 @@ Marca o pai do seu bebê aqui embaixo 👇 e já combina esse sábado.
 #Casalgrávido #Paternidade #Gestante #BabyTalks #Gravidez #Curitiba`}
    ]},
 
-  {num:'02', titulo:'Quem vai te acolher', range:'15/07 – 27/07',
+  {num:'02', titulo:'Quem vai te acolher', range:'17/07 – 29/07',
    intro:'As palestrantes entram como quem vai cuidar da Marina em cada medo. Autoridade traduzida em acolhimento, não em currículo frio. Intercalado com espelho e prática.',
    stories:'<b>Stories da semana:</b> "quem vai cuidar de você no palco" (revela 1 por dia) · trechos das palestrantes convidando · enquete "qual tema você mais quer ver ao vivo?".',
    posts:[
-    {n:6,dia:'15',mes:'Jul',w:'Qua',pilar:'palestrante',fmt:'Reels / Post',
-     hook:'Quem vai te ensinar a amamentar sem sofrer: Dayane dos Anjos.',
+    {n:6,dia:'17',mes:'Jul',w:'Sex',pilar:'palestrante',fmt:'Reels / Post',
+     hook:'Quem vai te ensinar a amamentar sem sofrer: Dayane Dos Anjos.',
      criativo:'<b>Criativo:</b> Card/Reels com foto da Dayane + selo "confirmada". Se der, vídeo dela falando direto com a gestante de Curitiba.',
-     cap:`Se tem uma coisa que apavora quem espera o primeiro filho é a amamentação e o sono do bebê. E é exatamente disso que a Dayane dos Anjos vai cuidar no palco da Baby Talks. 🍼
+     cap:`Se tem uma coisa que apavora quem espera o primeiro filho é a amamentação e o sono do bebê. E é exatamente disso que a Dayane Dos Anjos vai cuidar no palco da Baby Talks. 🍼
 
 Consultora de amamentação, sono e cuidados com o bebê, a Day ensina do jeito prático e sem julgamento que já ajudou milhares de mães a viverem esse começo com mais leveza.
 
@@ -222,7 +227,7 @@ Com ela, você aprende a pega certa, entende o sono do recém-nascido de verdade
 Segue a Day: @manualdorecemnascido
 
 #BabyTalks #DayaneDosAnjos #Amamentação #SonoDoBebê #Gestante #Curitiba`},
-    {n:7,dia:'17',mes:'Jul',w:'Sex',pilar:'espelho',fmt:'Carrossel',
+    {n:7,dia:'20',mes:'Jul',w:'Seg',pilar:'espelho',fmt:'Carrossel',
      hook:'"Será que eu vou dormir de novo algum dia?"',
      criativo:'<b>Criativo:</b> Carrossel acolhedor sobre sono — valida o cansaço, tira o peso da "rotina mágica". Imagem de mãe e bebê tranquilos.',
      cap:`Se essa pergunta já passou pela sua cabeça, você não tá sozinha. 😴
@@ -238,7 +243,7 @@ Não existe fórmula mágica pra fazer bebê dormir. Mas existe entender como o 
 Salva pra lembrar 🌙
 
 #SonoDoBebê #Gestante #BabyTalks #Maternidade #Curitiba #Puerpério`},
-    {n:8,dia:'20',mes:'Jul',w:'Seg',pilar:'palestrante',fmt:'Reels / Post',
+    {n:8,dia:'22',mes:'Jul',w:'Qua',pilar:'palestrante',fmt:'Reels / Post',
      hook:'A gravidez que ninguém te contou, com Patricia Moreira.',
      criativo:'<b>Criativo:</b> Card/Reels com foto da Patricia + selo "confirmada". Ângulo: gravidez real e honesta, sem romantização.',
      cap:`Tem uma parte da gravidez que os livros não contam: as dores reais, as mudanças no corpo, o emocional bagunçado, o medo do que vem pela frente. E ninguém devia passar por isso achando que é a única. 💛
@@ -253,7 +258,7 @@ Você vai se sentir compreendida e, principalmente, preparada.
 Segue: @boagravidez
 
 #BabyTalks #PatriciaMoreira #BoaGravidez #Gestante #Gravidez #Curitiba`},
-    {n:9,dia:'22',mes:'Jul',w:'Qua',pilar:'experiencia',fmt:'Reels',
+    {n:9,dia:'24',mes:'Jul',w:'Sex',pilar:'experiencia',fmt:'Reels',
      hook:'Chega de teoria. Aqui você vê acontecer na sua frente.',
      criativo:'<b>Criativo:</b> Reels mostrando a promessa do ao vivo — pega, desengasgo, posições, banho. Energia de bastidor, real.',
      cap:`Ler sobre pega de amamentação é uma coisa. Ver acontecer, ao vivo, na sua frente, é outra completamente diferente. 🎭
@@ -270,7 +275,7 @@ o banho e os primeiros cuidados
 🎟️ Ingressos no link da bio
 
 #BabyTalks #Gestante #Amamentação #Parto #Curitiba #Gravidez`},
-    {n:10,dia:'24',mes:'Jul',w:'Sex',pilar:'palestrante',fmt:'Reels / Post',
+    {n:10,dia:'27',mes:'Jul',w:'Seg',pilar:'palestrante',fmt:'Reels / Post',
      hook:'Preparar o corpo pro parto também é cuidar de você: Alline Vieira.',
      criativo:'<b>Criativo:</b> Card/Reels com foto da Alline + selo "confirmada". Ângulo: corpo acolhido, parceiro como apoio.',
      cap:`O seu corpo tá se preparando pra um dos maiores dias da sua vida. E ele merece chegar lá preparado e acolhido. 🤍
@@ -285,7 +290,7 @@ Com mais de 10 anos cuidando de gestantes, ela vai te ajudar a chegar mais confi
 Segue: @draallinevieira.fisio
 
 #BabyTalks #AllineVieira #Doula #FisioterapiaPélvica #Gestante #Parto #Curitiba`},
-    {n:11,dia:'27',mes:'Jul',w:'Seg',pilar:'palestrante',fmt:'Reels / Post',
+    {n:11,dia:'29',mes:'Jul',w:'Qua',pilar:'palestrante',fmt:'Reels / Post',
      hook:'Seu maior medo é o parto? Então precisa conhecer a Dra. Juliana Chalupe.',
      criativo:'<b>Criativo:</b> Card/Reels com foto da Dra. Juliana + selo "confirmada". Autoridade médica como segurança e controle.',
      cap:`"E se eu não reconhecer a hora?" "E se me empurrarem uma cesárea que eu não quero?" O dia do parto é o que mais assusta, e você merece encarar ele informada, não no escuro. 💛
@@ -300,11 +305,11 @@ Informação segura, que caminha junto com o seu pré-natal, pra você chegar no
 #BabyTalks #DraJulianaChalupe #Parto #Obstetra #Gestante #Curitiba`}
    ]},
 
-  {num:'03', titulo:'O que você vai viver', range:'29/07 – 10/08',
+  {num:'03', titulo:'O que você vai viver', range:'31/07 – 10/08',
    intro:'Cada medo vira o alívio do que ela vai viver no dia: o parto no controle, o teatro, o cuidado com a mãe, o casal junto. Aspiracional puro.',
    stories:'<b>Stories da semana:</b> bastidores do teatro e da produção · "como vai ser a sua manhã" (a grade em pílulas) · repost de dúvidas do público pra levar pro palco.',
    posts:[
-    {n:12,dia:'29',mes:'Jul',w:'Qua',pilar:'espelho',fmt:'Carrossel',
+    {n:12,dia:'31',mes:'Jul',w:'Sex',pilar:'espelho',fmt:'Carrossel',
      hook:'Você vai saber a hora. E vai saber o que fazer.',
      criativo:'<b>Criativo:</b> Carrossel que vira o medo em segurança — cada card um passo do "e se..." pro "eu sei". Tom firme e tranquilo.',
      cap:`Um dos maiores medos da reta final é esse: "e se eu não perceber que o trabalho de parto começou?" 😰
@@ -316,7 +321,7 @@ Esse é o tipo de segurança que a Baby Talks entrega. Pra que, quando a hora ch
 📅 22/08, Curitiba
 
 #Parto #TrabalhoDeParto #Gestante #BabyTalks #Gravidez #Curitiba`},
-    {n:13,dia:'31',mes:'Jul',w:'Sex',pilar:'experiencia',fmt:'Reels',
+    {n:13,dia:'03',mes:'Ago',w:'Seg',pilar:'experiencia',fmt:'Reels',
      hook:'Informação importante merece ser vivida, não só assistida.',
      criativo:'<b>Criativo:</b> Reels com imagens do teatro (poltronas, palco, luz) + o clima do intervalo. Fecha na emoção do dia.',
      cap:`Podia ser uma sala qualquer. Mas a gente escolheu um teatro de propósito. 🎭
@@ -331,7 +336,7 @@ Palco, luz, especialistas de verdade, e um intervalo generoso pra você respirar
 🎟️ Link na bio
 
 #BabyTalks #Curitiba #Gestante #Casalgrávido #Maternidade #EventoCuritiba`},
-    {n:14,dia:'03',mes:'Ago',w:'Seg',pilar:'espelho',fmt:'Carrossel',
+    {n:14,dia:'05',mes:'Ago',w:'Qua',pilar:'espelho',fmt:'Carrossel',
      hook:'Todo mundo pergunta do bebê. E de você, quem pergunta?',
      criativo:'<b>Criativo:</b> Carrossel emocional sobre a mãe no pós-parto. Tom de acolhimento, imagem de mãe descansando/sendo cuidada.',
      cap:`Tem uma coisa que quase ninguém te prepara: o depois. 💛
@@ -345,7 +350,7 @@ Por isso a Baby Talks fecha o dia cuidando de você: recuperação, saúde emoci
 📅 22/08, Curitiba
 
 #Puerpério #Gestante #BabyTalks #Maternidade #PósParto #Curitiba`},
-    {n:15,dia:'05',mes:'Ago',w:'Qua',pilar:'experiencia',fmt:'Carrossel',
+    {n:15,dia:'07',mes:'Ago',w:'Sex',pilar:'experiencia',fmt:'Carrossel',
      hook:'É assim que vai ser a sua manhã na Baby Talks 👇',
      criativo:'<b>Criativo:</b> Carrossel da manhã, hora a hora, com ícones. Foco na sensação de cada bloco. Bom pra salvar.',
      cap:`Uma manhã inteira, do comecinho da gravidez ao bebê já em casa. Olha só o que você vai viver:
@@ -364,24 +369,7 @@ Você sai com a jornada inteira na cabeça e o coração mais leve.
 🎟️ Ingressos no link da bio
 
 #BabyTalks #Curitiba #Gestante #Gravidez #EventoCuritiba`},
-    {n:16,dia:'07',mes:'Ago',w:'Sex',pilar:'espelho',fmt:'Reels',
-     hook:'Qual dessas frases é a sua hoje?',
-     criativo:'<b>Criativo:</b> Reels de engajamento — 5 frases na tela, pede resposta no comentário. Promete acolher cada uma no palco.',
-     cap:`Responde sincero aqui embaixo. Você não tá sozinha nisso. 👇
-
-"Tenho medo de não reconhecer a hora do parto."
-"Será que eu vou conseguir amamentar?"
-"Não sei como fazer meu bebê dormir."
-"Queria que meu companheiro me ajudasse mais."
-"E o pós-parto, como sobrevive?"
-
-Toda dúvida sua é válida. E cada uma dessas tem espaço na Baby Talks, com quem entende e sabe acolher.
-
-📅 22/08, Curitiba
-🎟️ Link na bio
-
-#BabyTalks #Gestante #Gravidez #Maternidade #Curitiba`},
-    {n:17,dia:'10',mes:'Ago',w:'Seg',pilar:'experiencia',fmt:'Reels',
+    {n:16,dia:'10',mes:'Ago',w:'Seg',pilar:'experiencia',fmt:'Reels',
      hook:'Pai, esse é pra você. Ela não precisa dar conta de tudo sozinha.',
      criativo:'<b>Criativo:</b> Reels falado direto ao parceiro. CTA pro ingresso duplo como presente. Ótimo pra alcance via marcação.',
      cap:`Pai, chega aqui. 💙
@@ -406,16 +394,15 @@ Um sábado, os dois juntos, saindo preparados. Que tal presentear ela com o ingr
    intro:'Depois de construir o desejo, chamamos pra ação com carinho e verdade: ingressos, vagas limitadas pela capacidade do teatro, contagem regressiva. Sem hard-sell.',
    stories:'<b>Stories da semana:</b> contagem regressiva diária · "restam poucas vagas" · link direto pro Diskingressos em todos os stories · prints de quem já garantiu.',
    posts:[
-    {n:18,dia:'12',mes:'Ago',w:'Qua',pilar:'conversao',fmt:'Carrossel',
+    {n:17,dia:'12',mes:'Ago',w:'Qua',pilar:'conversao',fmt:'Carrossel',
      hook:'Bora garantir o lugar de vocês? 💛',
      criativo:'<b>Criativo:</b> Carrossel de ingressos — 1 card por tipo com preço, card final com o que está incluso + CTA. Tom convite, não pressão.',
-     cap:`Os ingressos da Baby Talks já estão disponíveis. E dá pra ir do jeito que fizer sentido pra vocês: 🎟️
+     cap:`Os ingressos da Baby Talks já estão disponíveis, no 1º lote (o preço mais baixo da temporada): 🎟️
 
-🎫 Individual, R$150
-👫 Acompanhante, R$250
-💞 Os dois juntos (duplo), R$260
+🎫 Individual, R$180
+💞 Duplo, R$260 — pra ir com o par, com a sua mãe ou com a amiga que também tá grávida
 
-Todo ingresso te dá o dia inteiro de conteúdo prático, o intervalo, o certificado e a experiência completa.
+Todo ingresso te dá o dia inteiro de conteúdo prático, o coffee break, o certificado e o material de apoio.
 
 As vagas são as do teatro. Quando lotar, lotou de verdade.
 
@@ -424,21 +411,21 @@ As vagas são as do teatro. Quando lotar, lotou de verdade.
 📅 22 de agosto, sábado, Teatro Santo Anjo Barigui, Curitiba
 
 #BabyTalks #Ingressos #Gestante #Gravidez #Curitiba #EventoCuritiba`},
-    {n:19,dia:'14',mes:'Ago',w:'Sex',pilar:'conversao',fmt:'Reels',
-     hook:'Falta 1 semana pra sua manhã mais preparada. 🗓️',
-     criativo:'<b>Criativo:</b> Reels de recap com as 4 palestrantes e os temas, ritmo acelerado, contador "7 dias". Fecha em CTA.',
-     cap:`Daqui a exatamente uma semana, um teatro em Curitiba vai se encher de casais grávidos vivendo a mesma coisa que você. 💛
+    {n:18,dia:'14',mes:'Ago',w:'Sex',pilar:'conversao',fmt:'Reels',
+     hook:'Semana que vem já é Baby Talks. 🗓️',
+     criativo:'<b>Criativo:</b> Reels de recap com as 4 palestrantes e os temas, ritmo acelerado, contador "faltam poucos dias". Fecha em CTA.',
+     cap:`Daqui a pouco mais de uma semana, um teatro em Curitiba vai se encher de casais grávidos vivendo a mesma coisa que você. 💛
 
 E você vai sair de lá diferente de como entrou: mais tranquila, mais preparada, sabendo o que fazer no parto, na amamentação, no sono e no pós-parto.
 
-Com a Dayane dos Anjos, a Patricia Moreira, a Alline Vieira e a Dra. Juliana Chalupe cuidando de cada parte dessa jornada.
+Com a Dayane Dos Anjos, a Patricia Moreira, a Alline Vieira e a Dra. Juliana Chalupe cuidando de cada parte dessa jornada.
 
 Ainda dá tempo de garantir o seu lugar. 🎟️ Link na bio.
 
 📅 22/08, Curitiba
 
 #BabyTalks #Curitiba #Gestante #Gravidez #EventoCuritiba`},
-    {n:20,dia:'17',mes:'Ago',w:'Seg',pilar:'conversao',fmt:'Post / Stories',
+    {n:19,dia:'17',mes:'Ago',w:'Seg',pilar:'conversao',fmt:'Post / Stories',
      hook:'Se você tava esperando "a hora certa" pra decidir, é agora.',
      criativo:'<b>Criativo:</b> Post de urgência gentil (fundo magenta) + stories com link. Escassez real do teatro, sem gritar.',
      cap:`Reta final. 🤍
@@ -447,7 +434,7 @@ A Baby Talks é sábado que vem, e a lotação é a capacidade do Teatro Santo A
 
 Se você sente que precisa chegar mais preparada pra receber seu bebê, não deixa passar.
 
-🎟️ Individual R$150 · Acompanhante R$250 · Duplo R$260
+🎟️ Individual R$180 · Duplo R$260
 👉 Link na bio
 
 📅 22/08, Curitiba
@@ -455,7 +442,7 @@ Se você sente que precisa chegar mais preparada pra receber seu bebê, não dei
 Marca aquele casal que também não pode ficar de fora 👇
 
 #BabyTalks #Gestante #Gravidez #Curitiba #Casalgrávido`},
-    {n:21,dia:'19',mes:'Ago',w:'Qua',pilar:'conversao',fmt:'Carrossel',
+    {n:20,dia:'19',mes:'Ago',w:'Qua',pilar:'conversao',fmt:'Carrossel',
      hook:'Faltam 3 dias. Olha o que você leva pra casa 👇',
      criativo:'<b>Criativo:</b> Carrossel de "o que você leva" — cada card um resultado concreto pra vida dela. Ancoragem de valor no fim.',
      cap:`Não é só uma manhã bonita. É segurança pra viver os próximos meses com mais calma. Da Baby Talks você sai com:
@@ -467,23 +454,23 @@ Marca aquele casal que também não pode ficar de fora 👇
 ✅ seu companheiro sabendo como te apoiar
 ✅ a tranquilidade de ter aprendido com quem entende
 
-Isso vale pra vida inteira do seu filho. E cabe em R$150.
+Isso vale pra vida inteira do seu filho. E cabe em R$180.
 
 🎟️ Link na bio
 
 📅 Sábado, 22/08, Curitiba
 
 #BabyTalks #Curitiba #Gestante #Gravidez #Maternidade`},
-    {n:22,dia:'21',mes:'Ago',w:'Sex',pilar:'conversao',fmt:'Reels',
+    {n:21,dia:'21',mes:'Ago',w:'Sex',pilar:'conversao',fmt:'Reels',
      hook:'É amanhã. 🎭',
      criativo:'<b>Criativo:</b> Reels curto e caloroso — "é amanhã", instruções pra quem vai + última chamada pra quem não garantiu.',
      cap:`Chegou. Amanhã, sábado, a gente se encontra pra viver a primeira Baby Talks em Curitiba. 💛
 
-Se você já garantiu seu lugar: confere o horário, chega pra abertura de manhã, separa uma roupa que você goste e vem viver essa manhã com a gente.
+Se você já garantiu seu lugar: chega cedo, que as portas abrem às 8h e a gente começa 8h30. Separa uma roupa que você goste e vem viver essa manhã com a gente.
 
 Se ainda não garantiu: corre, porque são as últimas vagas. 🎟️ Link na bio até esgotar.
 
-📅 Amanhã, de manhã, Teatro Santo Anjo Barigui, Curitiba
+📅 Amanhã, 8h30, Teatro Santo Anjo Barigui, Curitiba
 
 Te espero lá. ✨
 
