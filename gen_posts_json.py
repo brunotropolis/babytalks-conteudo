@@ -27,6 +27,19 @@ async def go():
           return out;
         }""")
         await b.close()
+    # preserva o writeback do studio (status POSTADO + permalink + postado_em)
+    pj = D/"posts.json"
+    if pj.exists():
+        try:
+            antigo = {p["n"]: p for p in json.loads(pj.read_text(encoding="utf-8")).get("posts", [])}
+        except Exception:
+            antigo = {}
+        for p in posts:
+            a = antigo.get(p["n"])
+            if a and a.get("status") == "POSTADO":
+                p["status"] = "POSTADO"
+                if a.get("permalink"): p["permalink"] = a["permalink"]
+                if a.get("postado_em"): p["postado_em"] = a["postado_em"]
     obj = {"gerado_de":"calendario.html","total":len(posts),"posts":posts}
     (D/"posts.json").write_text(json.dumps(obj, ensure_ascii=False, indent=1), encoding="utf-8")
     pr = sum(1 for p in posts if p["status"]=="PRONTO")
