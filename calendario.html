@@ -25,6 +25,7 @@
 
   header.top{text-align:center;margin-bottom:28px;padding-top:14px}
   header.top h1{font-size:38px;line-height:1.1;color:var(--azul)}
+  header.top .sub{font-size:14.5px;color:var(--azul-suave);max-width:640px;margin:10px auto 0}
 
   .phase{margin-top:40px}
   .phase-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:2px solid var(--lavanda);padding-bottom:10px;margin-bottom:20px}
@@ -45,15 +46,24 @@
   .tag{font-size:11px;font-weight:700;padding:3px 10px;border-radius:100px;color:#fff;width:fit-content;text-transform:uppercase;letter-spacing:.4px}
   .fmt{font-size:11px;font-weight:700;color:var(--azul-suave);background:var(--branco);border:1px solid var(--lavanda);padding:3px 10px;border-radius:100px;width:fit-content;text-transform:uppercase;letter-spacing:.4px}
 
-  .card .body{padding:0 18px 18px;display:flex;flex-direction:column;flex:1}
+  .media{display:flex;gap:8px;overflow-x:auto;padding:14px 18px 2px}
+  .media a{flex:0 0 auto;display:block;border-radius:10px;overflow:hidden;border:1px solid var(--lavanda);position:relative;line-height:0}
+  .media a:hover{border-color:var(--magenta)}
+  .media a img,.media a video{height:158px;width:auto;display:block;object-fit:cover;background:#eee}
+  .media .pl{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;text-shadow:0 2px 8px rgba(0,0,0,.5);pointer-events:none}
+  .noart{font-size:12.5px;color:var(--azul-suave);background:var(--branco);border:1px dashed var(--lilas);border-radius:10px;padding:12px 14px;margin:14px 18px 2px;text-align:center}
+
+  .card .body{padding:12px 18px 18px;display:flex;flex-direction:column;flex:1}
   .hook{font-family:'Fraunces',serif;font-size:18px;line-height:1.25;color:var(--azul);margin:2px 0 10px}
   .criativo{font-size:12.5px;color:var(--azul-suave);background:var(--rosa);border-radius:10px;padding:9px 12px;margin-bottom:12px}
   .criativo b{color:var(--magenta)}
-  .capwrap{position:relative;margin-top:auto}
-  .caption{white-space:pre-wrap;font-size:13.5px;color:#2b3556;background:var(--branco);border:1px dashed var(--lilas);border-radius:12px;padding:14px 14px 40px;max-height:240px;overflow:auto}
-  .copy{position:absolute;right:10px;bottom:10px;background:var(--verde);color:#fff;border:none;border-radius:100px;padding:6px 14px;font-family:'DM Sans';font-size:12px;font-weight:700;cursor:pointer;transition:.2s}
-  .copy:hover{filter:brightness(1.08)}
-  .copy.done{background:var(--azul)}
+  .capwrap{margin-top:auto}
+  .caption{white-space:pre-wrap;font-size:13.5px;color:#2b3556;background:var(--branco);border:1px dashed var(--lilas);border-radius:12px;padding:14px;max-height:240px;overflow:auto}
+  .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .copy{background:var(--verde);color:#fff;border:none;border-radius:100px;padding:7px 15px;font-family:'DM Sans';font-size:12px;font-weight:700;cursor:pointer;transition:.2s}
+  .copy.mid{background:var(--azul)}
+  .copy:hover{filter:brightness(1.1)}
+  .copy.done{background:var(--magenta)}
 
   .stories{background:var(--lavanda);border-radius:14px;padding:14px 16px;margin:18px 0 0;font-size:13px;color:var(--azul-suave)}
   .stories b{color:var(--azul)}
@@ -66,14 +76,15 @@
 <div class="backbar"><a href="https://conteudo.babytalks.com.br/">← Central de Conteúdo</a></div>
 <div class="wrap">
   <header class="top">
-    <h1>Baby Talks Santo Anjo</h1>
+    <h1>Baby Talks · Repositório de posts</h1>
+    <p class="sub">Arte + legenda de cada post, prontos pra puxar na ferramenta de publicação. Sem data de programação — publique na ordem que quiser.</p>
   </header>
 
   <div id="app"></div>
 
   <footer class="end">
     <div class="big">Você não precisa descobrir tudo sozinha, no susto.</div>
-    21 posts · 06/07 a 21/08 · + cobertura ao vivo no dia 22/08 · ajustado com a Day
+    Repositório de conteúdo do evento · organizado por fase · arte + legenda por post
   </footer>
 </div>
 
@@ -452,36 +463,72 @@ Te espero lá. ✨
    ]}
 ];
 
+// ---- mídias criadas por post (arte pronta) ----
+const BASE='https://conteudo.babytalks.com.br/';
+const cars=(f,n)=>Array.from({length:n},(_,i)=>`midia/${f}/slide${i+1}.png`);
+const MIDIA = {
+  1:['midia/reels-01-madrugada-v7.mp4','midia/post-01-madrugada.png'],
+  2:cars('carrossel02v2',6),
+  3:cars('carrossel03b',6),
+  5:cars('carrossel05-casal',6),
+  6:['midia/palestrante-v6-dayane.png'],
+  8:['midia/palestrante-v7-patricia.png'],
+  10:['midia/palestrante-v7-alline.png'],
+  11:['midia/palestrante-v6-juliana.png'],
+};
+
+function mediaHTML(media){
+  if(!media.length) return `<div class="noart">Sem arte ainda · peça a criação pra popular aqui</div>`;
+  const its = media.map(src=>{
+    const inner = src.endsWith('.mp4')
+      ? `<video src="${src}#t=1" muted preload="metadata"></video><span class="pl">&#9654;</span>`
+      : `<img src="${src}" loading="lazy">`;
+    return `<a href="${src}" target="_blank">${inner}</a>`;
+  }).join('');
+  return `<div class="media">${its}</div>`;
+}
+
 const app = document.getElementById('app');
 FASES.forEach(f=>{
   const sec=document.createElement('div'); sec.className='phase';
-  sec.innerHTML=`<div class="phase-head"><span class="num">${f.num}</span><h2>${f.titulo}</h2><span class="range">${f.range}</span></div>
+  sec.innerHTML=`<div class="phase-head"><span class="num">${f.num}</span><h2>${f.titulo}</h2></div>
   <p style="font-size:14px;color:var(--azul-suave);margin:-8px 0 18px;max-width:780px">${f.intro}</p>`;
   const grid=document.createElement('div'); grid.className='grid';
   f.posts.forEach(p=>{
     const P=PILAR[p.pilar];
+    const media=MIDIA[p.n]||[];
     const card=document.createElement('div'); card.className='card'; card.style.borderTopColor=P.cor;
     card.innerHTML=`
       <div class="head">
-        <div class="datebox"><div class="d">${p.dia}</div><div class="m">${p.mes}</div><div class="w">${p.w}</div></div>
         <div class="tags">
           <span class="tag" style="background:${P.cor}">${P.nome}</span>
-          <span class="fmt">${p.fmt}</span>
         </div>
+        <span class="fmt">${p.fmt}</span>
       </div>
+      ${mediaHTML(media)}
       <div class="body">
         <div class="hook">${typeof p.n==='number'?('#'+p.n+' · '):''}${p.hook}</div>
         <div class="criativo">${p.criativo}</div>
         <div class="capwrap">
           <div class="caption">${p.cap.replace(/</g,'&lt;')}</div>
-          <button class="copy">Copiar legenda</button>
+          <div class="actions">
+            <button class="copy cap">Copiar legenda</button>
+            ${media.length?'<button class="copy mid">Copiar links das mídias</button>':''}
+          </div>
         </div>
       </div>`;
-    const btn=card.querySelector('.copy');
-    btn.addEventListener('click',()=>{
+    const bc=card.querySelector('.copy.cap');
+    bc.addEventListener('click',()=>{
       navigator.clipboard.writeText(p.cap).then(()=>{
-        btn.textContent='✓ Copiado'; btn.classList.add('done');
-        setTimeout(()=>{btn.textContent='Copiar legenda'; btn.classList.remove('done');},1600);
+        bc.textContent='✓ Copiado'; bc.classList.add('done');
+        setTimeout(()=>{bc.textContent='Copiar legenda'; bc.classList.remove('done');},1600);
+      });
+    });
+    const bm=card.querySelector('.copy.mid');
+    if(bm) bm.addEventListener('click',()=>{
+      navigator.clipboard.writeText(media.map(s=>BASE+s).join('\n')).then(()=>{
+        bm.textContent='✓ Copiado'; bm.classList.add('done');
+        setTimeout(()=>{bm.textContent='Copiar links das mídias'; bm.classList.remove('done');},1600);
       });
     });
     grid.appendChild(card);
