@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Leads Enxoval · Baby Talks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --lilas:#8E9BD1; --lilas-esc:#6F7EB8; --magenta:#C95FA3; --magenta-esc:#9B3775;
+    --azul:#1F2A56; --azul-suave:#4A5578;
+    --branco:#F8F7F4; --rosa:#F4DCE8; --lavanda:#E4E6F2; --verde:#2EA66C;
+    --border:#E4E6F2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'DM Sans',sans-serif;background:var(--branco);color:var(--azul);min-height:100vh;padding:32px 20px 60px}
+  .wrap{max-width:1200px;margin:0 auto}
+  .top-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px}
+  .back{color:var(--azul-suave);text-decoration:none;font-size:14px;font-weight:600}
+  .back:hover{color:var(--magenta)}
+  .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.32em;text-transform:uppercase;color:var(--magenta);padding:6px 14px;background:rgba(201,95,163,0.08);border-radius:100px}
+
+  header.top{margin-bottom:32px;text-align:left}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-style:italic;font-size:38px;line-height:1.1;color:var(--azul);margin:8px 0 6px}
+  .sub{color:var(--azul-suave);font-size:15px}
+  .meta{color:var(--azul-suave);font-size:12px;margin-top:8px}
+
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+  .stat{background:white;border:1px solid var(--border);border-radius:14px;padding:20px 22px}
+  .stat .n{font-family:'Fraunces',serif;font-weight:600;font-size:36px;color:var(--azul);line-height:1}
+  .stat .l{font-size:12px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--azul-suave);margin-top:8px}
+  .stat.destaque{background:linear-gradient(135deg,var(--magenta) 0%,var(--magenta-esc) 100%);border-color:transparent;color:white}
+  .stat.destaque .n{color:white}
+  .stat.destaque .l{color:rgba(255,255,255,0.82)}
+
+  .actions{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;font-size:13px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;background:white;color:var(--azul);border:1.5px solid var(--border);border-radius:100px;cursor:pointer;text-decoration:none;transition:all 0.2s ease}
+  .btn:hover{border-color:var(--magenta);color:var(--magenta)}
+  .btn.primary{background:var(--magenta);color:white;border-color:var(--magenta)}
+  .btn.primary:hover{background:var(--magenta-esc);border-color:var(--magenta-esc);color:white}
+
+  .section{background:white;border:1px solid var(--border);border-radius:16px;overflow:hidden;margin-bottom:24px}
+  .section-head{padding:18px 24px;background:var(--lavanda);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  .section-title{font-family:'Fraunces',serif;font-weight:600;font-style:italic;font-size:22px;color:var(--azul)}
+  .section-title .count{font-family:'DM Sans',sans-serif;font-style:normal;font-weight:700;font-size:14px;padding:4px 12px;background:white;border-radius:100px;margin-left:10px;color:var(--magenta)}
+  .section.curitiba .section-head{background:linear-gradient(135deg,rgba(201,95,163,0.14) 0%,rgba(142,155,209,0.10) 100%)}
+
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th{text-align:left;padding:12px 24px;background:var(--branco);color:var(--azul-suave);font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;border-bottom:1px solid var(--border);position:sticky;top:0}
+  td{padding:14px 24px;border-bottom:1px solid var(--border);color:var(--azul);vertical-align:top}
+  tr:hover td{background:rgba(228,230,242,0.35)}
+  tr:last-child td{border-bottom:none}
+  .cell-nome{font-weight:600}
+  .cell-tel a{color:var(--verde);text-decoration:none;font-family:'DM Sans',sans-serif;font-weight:600;font-variant-numeric:tabular-nums}
+  .cell-tel a:hover{text-decoration:underline}
+  .tri{display:inline-block;padding:3px 10px;border-radius:100px;font-size:11px;font-weight:600;letter-spacing:0.04em}
+  .tri.primeiro{background:#fde8f2;color:var(--magenta-esc)}
+  .tri.segundo{background:#e4f4e9;color:#1e7a4d}
+  .tri.terceiro{background:#e6ecf7;color:var(--lilas-esc)}
+  .tri.bebe_chegou{background:#fff3cd;color:#8a6d0f}
+  .cell-data{color:var(--azul-suave);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+  .empty{padding:60px 24px;text-align:center;color:var(--azul-suave);font-family:'Fraunces',serif;font-style:italic;font-size:17px}
+
+  .loading{padding:40px;text-align:center;color:var(--azul-suave)}
+  .error{padding:20px 24px;background:#ffe0e6;color:#8a1c30;border-radius:12px;margin-bottom:20px;font-size:14px}
+
+  @media (max-width:700px){
+    .cards{grid-template-columns:1fr;gap:12px}
+    h1{font-size:28px}
+    table{font-size:13px}
+    th, td{padding:10px 14px}
+    .cell-data{font-size:11px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top-bar">
+    <a class="back" href="/">← Central de Conteúdo</a>
+    <span class="badge">Isca digital · captura de leads</span>
+  </div>
+
+  <header class="top">
+    <h1>Leads do Enxoval</h1>
+    <p class="sub">Quem baixou o e-book <em>Enxoval Descomplicado</em> em <a href="https://enxoval.babytalks.com.br" target="_blank" style="color:var(--magenta)">enxoval.babytalks.com.br</a>.</p>
+    <p class="meta" id="meta"></p>
+  </header>
+
+  <div class="cards" id="cards">
+    <div class="stat destaque"><div class="n" id="c-cwb">—</div><div class="l">Curitiba · DDD 41</div></div>
+    <div class="stat"><div class="n" id="c-outros">—</div><div class="l">Outros DDDs</div></div>
+    <div class="stat"><div class="n" id="c-total">—</div><div class="l">Total capturados</div></div>
+  </div>
+
+  <div class="actions">
+    <button class="btn primary" onclick="load(true)">↻ Atualizar agora</button>
+    <button class="btn" onclick="downloadCSV('curitiba')">Baixar CSV · Curitiba</button>
+    <button class="btn" onclick="downloadCSV('outros')">Baixar CSV · Outros</button>
+    <a class="btn" href="https://docs.google.com/spreadsheets/d/1AKpEaKba0dHtgJkzK-820NDv8FF2hurYPfaSbqmXk7g/edit" target="_blank">Abrir planilha</a>
+  </div>
+
+  <div id="content">
+    <div class="loading">Carregando leads…</div>
+  </div>
+</div>
+
+<script>
+const ENDPOINT = 'https://n8n-n8n.xktssy.easypanel.host/webhook/enxoval-leads-ETp9Xk3nRQm8Wz';
+let CACHE = null;
+
+const trimestreLabel = { primeiro: '1º tri', segundo: '2º tri', terceiro: '3º tri', bebe_chegou: 'bebê chegou' };
+
+function fmtData(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  if (isNaN(d)) return iso.slice(0,10);
+  return d.toLocaleString('pt-BR', { day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit' });
+}
+function fmtTel(t) {
+  const d = String(t||'').replace(/\D/g,'');
+  if (d.length === 11) return d.replace(/(\d{2})(\d{5})(\d{4})/, '($1) $2-$3');
+  if (d.length === 10) return d.replace(/(\d{2})(\d{4})(\d{4})/, '($1) $2-$3');
+  return t;
+}
+function waLink(t, nome) {
+  const d = String(t||'').replace(/\D/g,'');
+  const full = d.length >= 10 ? '55' + d : d;
+  const msg = encodeURIComponent(`Oi ${nome ? nome.split(' ')[0] : ''}! Aqui é do Baby Talks 💛`);
+  return `https://wa.me/${full}?text=${msg}`;
+}
+
+function renderTable(list, sectionCls, title) {
+  if (!list || !list.length) {
+    return `<div class="section ${sectionCls}">
+      <div class="section-head"><div class="section-title">${title}<span class="count">0</span></div></div>
+      <div class="empty">Nenhum lead ainda por aqui — as gestantes vão começar a chegar 🌱</div>
+    </div>`;
+  }
+  const rows = list.map(l => `
+    <tr>
+      <td class="cell-nome">${escapeHtml(l.nome)}</td>
+      <td class="cell-tel"><a href="${waLink(l.telefone, l.nome)}" target="_blank" rel="noopener">${fmtTel(l.telefone)}</a></td>
+      <td><span class="tri ${l.trimestre}">${trimestreLabel[l.trimestre] || l.trimestre}</span></td>
+      <td class="cell-data">${fmtData(l.criado_em)}</td>
+    </tr>
+  `).join('');
+  return `<div class="section ${sectionCls}">
+    <div class="section-head"><div class="section-title">${title}<span class="count">${list.length}</span></div></div>
+    <table>
+      <thead><tr><th>Nome</th><th>WhatsApp</th><th>Gestação</th><th>Recebido em</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+function escapeHtml(s) {
+  return String(s||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+async function load(bust) {
+  const el = document.getElementById('content');
+  el.innerHTML = '<div class="loading">Carregando leads…</div>';
+  try {
+    const url = ENDPOINT + (bust ? '?t=' + Date.now() : '');
+    const r = await fetch(url, { cache: 'no-store' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    CACHE = data;
+    document.getElementById('c-cwb').textContent = data.total_curitiba;
+    document.getElementById('c-outros').textContent = data.total_outros;
+    document.getElementById('c-total').textContent = data.total;
+    document.getElementById('meta').textContent = 'Atualizado ' + fmtData(data.atualizado_em);
+    el.innerHTML =
+      renderTable(data.curitiba, 'curitiba', 'Curitiba · DDD 41') +
+      renderTable(data.outros, 'outros', 'Outros DDDs');
+  } catch (err) {
+    el.innerHTML = '<div class="error">Não deu pra carregar os leads: ' + escapeHtml(err.message) + '</div>';
+  }
+}
+
+function downloadCSV(grupo) {
+  if (!CACHE) return alert('Aguarde carregar primeiro');
+  const list = CACHE[grupo] || [];
+  if (!list.length) return alert('Nenhum lead nesta lista ainda.');
+  const header = ['nome','telefone','ddd','trimestre','criado_em','origem'];
+  const rows = list.map(l => header.map(k => `"${String(l[k]||'').replace(/"/g,'""')}"`).join(','));
+  const csv = header.join(',') + '\n' + rows.join('\n');
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `leads-enxoval-${grupo}-${new Date().toISOString().slice(0,10)}.csv`;
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
+load();
+</script>
+</body>
+</html>
