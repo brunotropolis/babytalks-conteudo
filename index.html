@@ -35,14 +35,20 @@
   .card .ic{font-size:34px;margin-bottom:14px}
   .card h2{font-family:'Fraunces',serif;font-size:23px;color:var(--azul);margin-bottom:8px}
   .card p{font-size:14px;color:var(--azul-suave);line-height:1.55;flex:1}
-  .card .go{margin-top:18px;display:inline-flex;align-items:center;gap:7px;font-weight:700;font-size:14px;color:var(--magenta)}
-  .card.persona{border-top-color:var(--magenta)}
-  .card.calendario{border-top-color:var(--lilas-esc)}
-  .card.posts{border-top-color:var(--magenta)}
-  .card.estrategia{border-top-color:var(--verde)}
-  .card.postar{border-top-color:var(--magenta);background:linear-gradient(180deg,#fff 0%,var(--rosa) 100%)}
-  .card.postados{border-top-color:var(--verde)}
-  .card.agenda{border-top-color:var(--magenta)}
+  .card{--accent:var(--lilas-esc)}
+  .card .go{margin-top:20px;align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:13.5px;color:#fff;background:var(--accent);padding:11px 22px;border-radius:100px;box-shadow:0 10px 22px rgba(31,42,86,.14);transition:.2s}
+  a.card:hover .go{filter:brightness(1.08);box-shadow:0 14px 26px rgba(31,42,86,.2)}
+  .card.persona{border-top-color:var(--magenta);--accent:var(--magenta)}
+  .card.calendario{border-top-color:var(--lilas-esc);--accent:var(--lilas-esc)}
+  .card.posts{border-top-color:var(--magenta);--accent:var(--magenta)}
+  .card.estrategia{border-top-color:var(--verde);--accent:var(--verde)}
+  .card.postar{border-top-color:var(--magenta);--accent:var(--magenta);background:linear-gradient(180deg,#fff 0%,var(--rosa) 100%)}
+  .card.postados{border-top-color:var(--verde);--accent:var(--verde)}
+  .card.agenda{border-top-color:var(--lilas-esc);--accent:var(--lilas-esc)}
+  .card.leads{border-top-color:var(--azul-suave);--accent:var(--azul-suave)}
+  .seclabel{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--lilas-esc);font-weight:700;margin:38px 0 15px;padding-left:4px;display:flex;align-items:center;gap:12px}
+  .seclabel::after{content:"";flex:1;height:1px;background:var(--lavanda)}
+  .seclabel.first{margin-top:10px}
   .card.soon{border-top-color:var(--lavanda);opacity:.72;cursor:default;box-shadow:none}
   .card.soon .go{color:var(--lilas-esc)}
   .badge-soon{display:inline-block;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#fff;background:var(--lilas-esc);padding:3px 10px;border-radius:100px;margin-bottom:14px;width:fit-content}
@@ -58,40 +64,20 @@
     <span class="badge">Central de Conteúdo</span>
   </header>
 
+  <div class="seclabel first">Utilidade</div>
   <div class="grid">
-    <a class="card persona" href="persona.html">
-      <div class="ic">🤰</div>
-      <h2>Persona</h2>
-      <p>Quem é a Marina, 33 — a "primeira viagem informada". O que ela teme, o que ela sonha e como a gente fala com ela. Base de tudo.</p>
-      <span class="go">Abrir persona →</span>
-    </a>
-
-    <a class="card calendario" href="calendario.html">
-      <div class="ic">🗓️</div>
-      <h2>Calendário editorial</h2>
-      <p>Todos os posts do feed, por pilar e formato. Cada um com a arte e a legenda pronta pra copiar e postar (sem data fixa; você programa no studio).</p>
-      <span class="go">Abrir calendário →</span>
-    </a>
-
-    <a class="card posts" href="posts.html">
-      <div class="ic">📸</div>
-      <h2>Posts do Instagram</h2>
-      <p>A biblioteca de criativos que já produzimos, organizada em pastas: palestrantes, reels, carrosséis, capas, iscas e recortes. Abre e baixa cada arte.</p>
-      <span class="go">Abrir biblioteca →</span>
-    </a>
-
-    <a class="card estrategia" href="estrategia.html">
-      <div class="ic">🎯</div>
-      <h2>Estratégia de conteúdo</h2>
-      <p>Os 4 pilares pra aquecer a base e vender ingressos até o dia 22: patrocinados, collab, isca do enxoval e lives. Deck pra apresentar pra equipe.</p>
-      <span class="go">Abrir deck →</span>
-    </a>
-
     <a class="card postar" href="https://studio.babytalks.com.br" target="_blank" rel="noopener">
       <div class="ic">🚀</div>
       <h2>Programar &amp; postar</h2>
       <p>Montar cada post (arte + legenda + collab) e publicar direto no @babytalks.evento — foto, carrossel ou reels, em 1 toque.</p>
       <span class="go">Abrir o studio →</span>
+    </a>
+
+    <a class="card agenda" href="https://studio.babytalks.com.br/calendario">
+      <div class="ic">📅</div>
+      <h2>Agendamento</h2>
+      <p>O que está programado pra postar, num calendário do mês: os dias com posts agendados e o que já foi publicado, tudo de relance.</p>
+      <span class="go">Abrir calendário →</span>
     </a>
 
     <a class="card postados" href="https://studio.babytalks.com.br/postados">
@@ -101,18 +87,45 @@
       <span class="go">Ver o que já saiu →</span>
     </a>
 
-    <a class="card agenda" href="https://studio.babytalks.com.br/calendario">
-      <div class="ic">📅</div>
-      <h2>Calendário de agendamentos</h2>
-      <p>O que está programado pra postar, num calendário do mês: os dias com posts agendados e o que já foi publicado, tudo de relance.</p>
-      <span class="go">Abrir calendário →</span>
-    </a>
-
     <a class="card leads" href="leads-enxoval.html">
       <div class="ic">📥</div>
       <h2>Leads Enxoval</h2>
-      <p>Gestantes que baixaram o e-book <em>Enxoval Descomplicado</em>. Separado em <strong>Curitiba (DDD 41)</strong> e outros DDDs — pra você trabalhar o público local primeiro.</p>
+      <p>Gestantes que baixaram o e-book <em>Enxoval Descomplicado</em>. Separado em <strong>Curitiba (DDD 41)</strong> e outros DDDs — pra trabalhar o público local primeiro.</p>
       <span class="go">Ver leads →</span>
+    </a>
+  </div>
+
+  <div class="seclabel">Bibliotecas</div>
+  <div class="grid">
+    <a class="card calendario" href="calendario.html">
+      <div class="ic">✍️</div>
+      <h2>Editorial</h2>
+      <p>Todos os posts do feed, por pilar e formato. Cada um com a arte e a legenda pronta pra copiar e postar.</p>
+      <span class="go">Abrir editorial →</span>
+    </a>
+
+    <a class="card posts" href="posts.html">
+      <div class="ic">📸</div>
+      <h2>Posts do Instagram</h2>
+      <p>A biblioteca de criativos que já produzimos, organizada em pastas: palestrantes, reels, carrosséis, capas, iscas e recortes. Abre e baixa cada arte.</p>
+      <span class="go">Abrir biblioteca →</span>
+    </a>
+  </div>
+
+  <div class="seclabel">Planejamento</div>
+  <div class="grid">
+    <a class="card persona" href="persona.html">
+      <div class="ic">🤰</div>
+      <h2>Persona</h2>
+      <p>Quem é a Marina, 33 — a "primeira viagem informada". O que ela teme, o que ela sonha e como a gente fala com ela. Base de tudo.</p>
+      <span class="go">Abrir persona →</span>
+    </a>
+
+    <a class="card estrategia" href="estrategia.html">
+      <div class="ic">🎯</div>
+      <h2>Estratégia de conteúdo</h2>
+      <p>Os 4 pilares pra aquecer a base e vender ingressos até o dia 22: patrocinados, collab, isca do enxoval e lives. Deck pra apresentar pra equipe.</p>
+      <span class="go">Abrir deck →</span>
     </a>
   </div>
 
