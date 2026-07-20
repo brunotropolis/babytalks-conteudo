@@ -1,6 +1,6 @@
 {
  "gerado_de": "calendario.html",
- "total": 26,
+ "total": 75,
  "posts": [
   {
    "n": 1,
@@ -354,6 +354,643 @@
    "caption": "A gestação vem cheia de novidade, e junto vem também um monte de dúvida e insegurança, né? 💛\n\nSerá que estou fazendo certo? Meu corpo vai dar conta? Como me cuidar de verdade nessa fase? São perguntas que quase toda mulher tem e nem sempre sabe pra quem levar.\n\nQuarta, 22/07, às 10h30, tem live aqui no @babytalks.evento com a Paula Grip, fisioterapeuta e proprietária da Vitallice, referência no cuidado com a gestante e com a mulher. Ela vai conversar sobre as principais dúvidas e inseguranças dessa fase e como você pode se sentir mais amparada e segura.\n\nAo vivo e de graça. Ativa o lembrete e já deixa a sua dúvida nos comentários que a gente leva pra ela. 👇\n\n📅 Quarta, 22/07, às 10h30 · aqui no Instagram\n\nEm parceria com a Vitallice 💙\n\n#BabyTalks #Gestante #SaúdeDaMulher #Autocuidado #Maternidade #Curitiba",
    "midia": [
     "lives/reels-paula-v1.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M1",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #1",
+   "caption": "Você está vivenciando isso na sua gestação? 😅🥰\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/1.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M2",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #2",
+   "caption": "Conta aqui: já passou por isso? 😅\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/2.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M3",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #3",
+   "caption": "Alguém mais se identifica? 🥰😂\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/3.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M4",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #4",
+   "caption": "Marca aquela amiga grávida que VAI rir com esse 😂\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/4.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M5",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #5",
+   "caption": "Isso é tão real que dói de rir 😅🥰\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/5.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M6",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #6",
+   "caption": "Gestante entende, né? 🤰😂\n\nAh, e se você é de Curitiba: dia 22/08 tem um encontro especial pra te preparar pra chegada do bebê. 💛\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/6.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M7",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #7",
+   "caption": "Quem viveu isso, levanta a mão 🙋‍♀️😅\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/7.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M8",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #8",
+   "caption": "Só quem tá grávida entende 🥰\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/8.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M9",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #9",
+   "caption": "Me diz que não é só comigo 😂\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/9.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M10",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #10",
+   "caption": "A gravidez não avisa que ia ser assim 😅\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/10.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M11",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #11",
+   "caption": "Real demais pra quem tá esperando bebê 🥰\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/11.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M12",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #12",
+   "caption": "Rindo pra não chorar (de fofura e de sono) 😅\n\nAh, e se você é de Curitiba: dia 22/08 tem um encontro especial pra te preparar pra chegada do bebê. 💛\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/12.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M13",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #13",
+   "caption": "Manda pro papai que ele vai entender 😂\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/13.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M14",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #14",
+   "caption": "Ninguém te conta essas partes da gestação 😅🥰\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/14.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M15",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #15",
+   "caption": "Se você riu, é porque tá vivendo isso 😂\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/15.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M16",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #16",
+   "caption": "A maternidade começa antes do bebê nascer, né? 🥰\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/16.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M17",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #17",
+   "caption": "Confessa: já aconteceu com você? 😅\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/17.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M18",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #18",
+   "caption": "Grávida no modo: eu de novo 😂🤰\n\nAh, e se você é de Curitiba: dia 22/08 tem um encontro especial pra te preparar pra chegada do bebê. 💛\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/18.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M19",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #19",
+   "caption": "Salva esse pra rir de novo depois 🥰\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/19.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M20",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #20",
+   "caption": "Toda gestante tem um dia desses 😅\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/20.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M21",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #21",
+   "caption": "Quem mais tá nessa fase? 🙋‍♀️🥰\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/21.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M22",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #22",
+   "caption": "É rir ou chorar, e a gente escolhe rir 😂\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/22.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M23",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #23",
+   "caption": "Alguém avisa que gravidez é isso aqui 😅🥰\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/23.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M24",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #24",
+   "caption": "Manda pra uma grávida hoje e faz o dia dela 🥰\n\nAh, e se você é de Curitiba: dia 22/08 tem um encontro especial pra te preparar pra chegada do bebê. 💛\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/24.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M25",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #25",
+   "caption": "Muito eu isso, e você? 😂\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/25.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M26",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #26",
+   "caption": "Você está vivenciando isso na sua gestação? 😅🥰\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/26.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M27",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #27",
+   "caption": "Conta aqui: já passou por isso? 😅\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/27.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M28",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #28",
+   "caption": "Alguém mais se identifica? 🥰😂\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/28.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M29",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #29",
+   "caption": "Marca aquela amiga grávida que VAI rir com esse 😂\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/29.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M30",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #30",
+   "caption": "Isso é tão real que dói de rir 😅🥰\n\nAh, e se você é de Curitiba: dia 22/08 tem um encontro especial pra te preparar pra chegada do bebê. 💛\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/30.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M31",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #31",
+   "caption": "Gestante entende, né? 🤰😂\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/31.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M32",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #32",
+   "caption": "Quem viveu isso, levanta a mão 🙋‍♀️😅\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/32.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M33",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #33",
+   "caption": "Só quem tá grávida entende 🥰\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/33.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M34",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #34",
+   "caption": "Me diz que não é só comigo 😂\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/34.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M35",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #35",
+   "caption": "A gravidez não avisa que ia ser assim 😅\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/35.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M36",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #36",
+   "caption": "Real demais pra quem tá esperando bebê 🥰\n\nAh, e se você é de Curitiba: dia 22/08 tem um encontro especial pra te preparar pra chegada do bebê. 💛\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/36.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M37",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #37",
+   "caption": "Rindo pra não chorar (de fofura e de sono) 😅\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/37.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M38",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #38",
+   "caption": "Manda pro papai que ele vai entender 😂\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/38.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M39",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #39",
+   "caption": "Ninguém te conta essas partes da gestação 😅🥰\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/39.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M40",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #40",
+   "caption": "Se você riu, é porque tá vivendo isso 😂\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/40.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M41",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #41",
+   "caption": "A maternidade começa antes do bebê nascer, né? 🥰\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/41.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M42",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #42",
+   "caption": "Confessa: já aconteceu com você? 😅\n\nAh, e se você é de Curitiba: dia 22/08 tem um encontro especial pra te preparar pra chegada do bebê. 💛\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/42.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M43",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #43",
+   "caption": "Grávida no modo: eu de novo 😂🤰\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/43.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M44",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #44",
+   "caption": "Salva esse pra rir de novo depois 🥰\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/44.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M45",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #45",
+   "caption": "Toda gestante tem um dia desses 😅\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/45.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M46",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #46",
+   "caption": "Quem mais tá nessa fase? 🙋‍♀️🥰\n\n#BabyTalks #Gravidez #Gestante #VidaDeGrávida #Maternidade #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/46.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M47",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #47",
+   "caption": "É rir ou chorar, e a gente escolhe rir 😂\n\n#BabyTalks #Maternidade #Gestante #Grávida #BebêaCaminho #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/47.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M48",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #48",
+   "caption": "Alguém avisa que gravidez é isso aqui 😅🥰\n\nAh, e se você é de Curitiba: dia 22/08 tem um encontro especial pra te preparar pra chegada do bebê. 💛\n\n#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/48.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "M49",
+   "fase": "06",
+   "fase_titulo": "Memes de maternidade",
+   "formato": "Reels",
+   "pilar": "meme",
+   "hook": "Meme maternidade #49",
+   "caption": "Manda pra uma grávida hoje e faz o dia dela 🥰\n\n#BabyTalks #Gestante #Maternidade #Gravidez #MãeDePrimeiraViagem #Curitiba",
+   "midia": [
+    "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/49.mp4"
    ],
    "status": "PRONTO"
   }
