@@ -1,6 +1,6 @@
 {
  "gerado_de": "calendario.html",
- "total": 25,
+ "total": 26,
  "posts": [
   {
    "n": 1,
@@ -341,6 +341,19 @@
    "caption": "O dia da vacina aperta o coração de toda mãe, né? 💛\n\nVer o bebê chorar e não saber muito bem como acalmar, ficar na dúvida sobre o que fazer antes e depois... é mais comum do que parece.\n\nQuinta, 23/07, às 11h30, tem live aqui no @babytalks.evento com a Karen Bazilio, psicóloga perinatal responsável pela humanização na Clínica Vacinemais. Ela vai dar dicas de como amenizar as reações da vacina e acalmar o seu filho antes e depois, pra vocês viverem esse momento com mais leveza.\n\nAo vivo e de graça. Ativa o lembrete e já deixa a sua dúvida nos comentários que a gente leva pra ela. 👇\n\n📅 Quinta, 23/07, às 11h30 · aqui no Instagram\n\nEm parceria com a Clínica Vacinemais 💙\n\n#BabyTalks #Vacinas #Humanização #Gestante #RecémNascido #Curitiba",
    "midia": [
     "lives/reels-karen-v8.mp4"
+   ],
+   "status": "PRONTO"
+  },
+  {
+   "n": "L4",
+   "fase": "05",
+   "fase_titulo": "Lives de aquecimento",
+   "formato": "Reels",
+   "pilar": "palestrante",
+   "hook": "Live sobre cuidado com o corpo na gestação (fisioterapia pélvica) · Paula Grip (Vitallice) · data a definir",
+   "caption": "O corpo muda muito na gestação, e junto vem um monte de dúvida, né? 💛\n\nPosso continuar me exercitando? Como preparar o corpo pro parto? E o assoalho pélvico, como cuidar? São perguntas que quase toda gestante tem e nem sempre sabe pra quem levar.\n\nEm breve tem live aqui no @babytalks.evento com a Paula Grip, fisioterapeuta pélvica e proprietária da Vitallice, uma das maiores referências em fisioterapia pélvica do Brasil. Ela vai responder as principais dúvidas de quem procura esse cuidado na gestação e mostrar por onde começar.\n\nAo vivo e de graça. Ativa o lembrete e já deixa a sua dúvida nos comentários que a gente leva pra ela. 👇\n\n📅 Data em breve · aqui no Instagram\n\nEm parceria com a Vitallice 💙\n\n#BabyTalks #FisioterapiaPélvica #Gestante #SaúdeDaMulher #Maternidade #Curitiba",
+   "midia": [
+    "lives/reels-paula-v1.mp4"
    ],
    "status": "PRONTO"
   }
