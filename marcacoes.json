@@ -1,0 +1,18 @@
+{
+  "_doc": "Base de @ de marcação Baby Talks. Palestrantes + marcas parceiras. Usada pra marcar (mencionar) nas legendas dos posts.",
+  "palestrantes": {
+    "dayane":   { "nome": "Dayane Dos Anjos",     "handles": ["manualdorecemnascido"] },
+    "patricia": { "nome": "Patricia Moreira",     "handles": ["nutrigeston", "boagravidez"] },
+    "juliana":  { "nome": "Dra. Juliana Chalupe", "handles": ["julianachalupe", "gruponascer"] },
+    "alline":   { "nome": "Alline Vieira",        "handles": ["draallinevieira.fisio", "vittalicesaude"] },
+    "paula":    { "nome": "Paula Grip",           "handles": ["paulagripp", "vittalicesaude"] },
+    "priscilla":{ "nome": "Priscila Oliveira · Dos Anjos Fotografia", "handles": ["dosanjosfotografia"] },
+    "karen":    { "nome": "Karen Bazilio · Vacinemais", "handles": ["clinicavacinemais", "clinicavacinemaiscolombo", "karenbasiliopsi"] }
+  },
+  "parceiros": {
+    "santoanjo":   { "nome": "Colégio Santo Anjo", "handles": ["santoanjocolegio"] },
+    "vilacarlota": { "nome": "Vila Carlota",       "handles": ["vila_carlota"] },
+    "muitafesta":  { "nome": "Muita Festa",        "handles": ["muitafesta", "fabiyoussef"] },
+    "rafaelbruns": { "nome": "Dr. Rafael Bruns",   "handles": ["dr.rafaelbruns_cirurgiafetal"] }
+  }
+}
