@@ -64,9 +64,35 @@ def distribuir(inicio):
         if d > 60: break
     return dias, dict(cortes=ci, emo=ei, meme=mi)
 
+def emitir_plano(inicio, dias):
+    """plano.json = o plano como DADO, pro studio sobrepor no calendario unico.
+    Preserva pins manuais de plano_fixos.json (n -> {data, hora}) — o Bruno fixa e a regeração respeita."""
+    fixos_p = D/"plano_fixos.json"
+    fixos = json.loads(fixos_p.read_text(encoding="utf-8")) if fixos_p.exists() else {}
+    itens = []
+    for di, (data, slots) in enumerate(dias):
+        horas = HORAS_HOJE if di == 0 else HORAS
+        for (_, hh), n in zip(horas, slots):
+            if not n:
+                continue
+            r = rotulo(n)
+            f = fixos.get(str(n))
+            itens.append({
+                "n": n,
+                "data": (f.get("data") if f else data.isoformat()),
+                "hora": (f.get("hora") if f else hh),
+                "fixo": bool(f),
+                "tipo": r["tipo"], "fmt": r["fmt"],
+                "linha": r["linha"], "capa": r["capa"], "postado": r["postado"],
+            })
+    (D/"plano.json").write_text(json.dumps({"gerado_de":"gen_distribuicao","itens":itens},
+                                           ensure_ascii=False, indent=1), encoding="utf-8")
+    return len(itens)
+
 def render():
     inicio = hoje()
     dias, usados = distribuir(inicio)
+    emitir_plano(inicio, dias)
     fim = dias[-1][0] if dias else inicio
     faltam_dias = (EVENTO - fim).days
     total_slots = sum(1 for _,s in dias for x in s if x)
