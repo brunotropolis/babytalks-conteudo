@@ -13,6 +13,7 @@ D = pathlib.Path(__file__).parent
 BASE = "https://conteudo.babytalks.com.br/midia/"
 EVENTO = datetime.date(2026, 8, 22)
 HORAS = [("manhã","09:00"), ("tarde","13:00"), ("noite","19:00")]
+HORAS_HOJE = [("meio-dia","12:00"), ("tarde","15:00"), ("noite","19:00")]  # 1o dia começa mais tarde
 
 posts = {p["n"]: p for p in json.loads((D/"posts.json").read_text(encoding="utf-8"))["posts"]}
 def pronto(n): return n in posts and posts[n]["status"] in ("PRONTO","POSTADO")
@@ -72,9 +73,10 @@ def render():
     postados = sum(1 for p in posts.values() if p["status"]=="POSTADO")
 
     linhas = []
-    for data, slots in dias:
+    for di, (data, slots) in enumerate(dias):
+        horas = HORAS_HOJE if di == 0 else HORAS
         cells = []
-        for (nome,hora), n in zip(HORAS, slots):
+        for (nome,hora), n in zip(horas, slots):
             if not n:
                 cells.append(f'<td class="vazio">—</td>'); continue
             r = rotulo(n)
