@@ -13,7 +13,8 @@
    "midia": [
     "reels-01-madrugada-v7.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 2,
@@ -31,7 +32,8 @@
     "carrossel02v2/slide5.png",
     "carrossel02v2/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 3,
@@ -49,7 +51,8 @@
     "carrossel03b/slide5.png",
     "carrossel03b/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 4,
@@ -63,6 +66,7 @@
     "reels-04-info-v4.mp4"
    ],
    "status": "POSTADO",
+   "colaboradores": [],
    "permalink": "https://www.instagram.com/reel/Da3t-B-lVWI/",
    "postado_em": "2026-07-16T22:31:21.642Z"
   },
@@ -82,7 +86,8 @@
     "carrossel05-casal/slide5.png",
     "carrossel05-casal/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 6,
@@ -96,6 +101,9 @@
     "palestrante-v6-dayane.png"
    ],
    "status": "POSTADO",
+   "colaboradores": [
+    "manualdorecemnascido"
+   ],
    "permalink": "https://www.instagram.com/p/Da24vyoFg0W/",
    "postado_em": "2026-07-16T14:46:00.524Z"
   },
@@ -115,7 +123,8 @@
     "carrossel07-sono-v3/slide5.png",
     "carrossel07-sono-v3/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 8,
@@ -129,6 +138,10 @@
     "palestrante-v7-patricia.png"
    ],
    "status": "POSTADO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ],
    "permalink": "https://www.instagram.com/p/Da5DzBZFhIY/",
    "postado_em": "2026-07-17T11:01:01.900Z"
   },
@@ -144,6 +157,7 @@
     "reels-09-madrugada-v1.mp4"
    ],
    "status": "POSTADO",
+   "colaboradores": [],
    "permalink": "https://www.instagram.com/reel/DbEsz_RlQqq/",
    "postado_em": "2026-07-21T23:31:22.496Z"
   },
@@ -159,6 +173,10 @@
     "palestrante-v7-alline.png"
    ],
    "status": "POSTADO",
+   "colaboradores": [
+    "draallinevieira.fisio",
+    "vittalicesaude"
+   ],
    "permalink": "https://www.instagram.com/p/Da7olzflm_O/",
    "postado_em": "2026-07-18T11:01:01.428Z"
   },
@@ -174,6 +192,10 @@
     "palestrante-v6-juliana.png"
    ],
    "status": "POSTADO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ],
    "permalink": "https://www.instagram.com/p/Da-NYwpFpmX/",
    "postado_em": "2026-07-19T11:01:02.677Z"
   },
@@ -193,7 +215,8 @@
     "carrossel12-parto/slide5.png",
     "carrossel12-parto/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 13,
@@ -207,6 +230,7 @@
     "reels-13-gestante-v2.mp4"
    ],
    "status": "POSTADO",
+   "colaboradores": [],
    "permalink": "https://www.instagram.com/reel/Da_A44DnTpU/",
    "postado_em": "2026-07-19T18:31:21.649Z"
   },
@@ -226,7 +250,8 @@
     "carrossel14-posparto/slide5.png",
     "carrossel14-posparto/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 15,
@@ -244,7 +269,8 @@
     "carrossel15-manha/slide5.png",
     "carrossel15-manha/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 16,
@@ -257,7 +283,8 @@
    "midia": [
     "reels-16-pai-v3.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 17,
@@ -275,7 +302,8 @@
     "carrossel17-ingressos/slide5.png",
     "carrossel17-ingressos/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 18,
@@ -288,7 +316,8 @@
    "midia": [
     "reels-18-recap-v3.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 19,
@@ -301,7 +330,8 @@
    "midia": [
     "post19-urgencia/slide1.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 20,
@@ -319,7 +349,8 @@
     "carrossel20-leva/slide5.png",
     "carrossel20-leva/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": 21,
@@ -332,7 +363,8 @@
    "midia": [
     "reels-21-amanha-v3.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "★",
@@ -343,7 +375,8 @@
    "hook": "DIA DO EVENTO — cobertura ao vivo.",
    "caption": "(Conteúdo ao vivo — roteiro dos stories)\n\n• Chegada e abertura, \"começou!\"\n• Bastidor de cada palestrante entrando no palco\n• Melhores momentos das demonstrações práticas\n• O intervalo, os casais conectando\n• Caixinha \"o que você tá levando de mais valioso hoje?\"\n• Reels-resumo ao fim do dia com a emoção do evento, pra guardar e divulgar a 2ª edição.\n\n#BabyTalks #Curitiba #Gestante #AoVivo",
    "midia": [],
-   "status": "AGUARDANDO_MIDIA"
+   "status": "AGUARDANDO_MIDIA",
+   "colaboradores": []
   },
   {
    "n": "L1",
@@ -356,7 +389,11 @@
    "midia": [
     "lives/reels-juliana-v4.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "L2",
@@ -369,7 +406,11 @@
    "midia": [
     "lives/reels-patricia-v5.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "L3",
@@ -382,7 +423,12 @@
    "midia": [
     "lives/reels-karen-v8.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "clinicavacinemais",
+    "clinicavacinemaiscolombo",
+    "karenbasiliopsi"
+   ]
   },
   {
    "n": "L4",
@@ -395,7 +441,11 @@
    "midia": [
     "lives/reels-paula-v1.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "paulagripp",
+    "vittalicesaude"
+   ]
   },
   {
    "n": "L5",
@@ -408,7 +458,10 @@
    "midia": [
     "lives/reels-priscilla-v1.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "dosanjosfotografia"
+   ]
   },
   {
    "n": "M1",
@@ -421,7 +474,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/1.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M2",
@@ -434,7 +488,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/2.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M3",
@@ -447,7 +502,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/3.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M4",
@@ -460,7 +516,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/4.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M5",
@@ -473,7 +530,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/5.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M6",
@@ -486,7 +544,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/6.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M7",
@@ -499,7 +558,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/7.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M8",
@@ -512,7 +572,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/8.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M9",
@@ -525,7 +586,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/9.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M10",
@@ -538,7 +600,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/10.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M11",
@@ -551,7 +614,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/11.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M12",
@@ -564,7 +628,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/12.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M13",
@@ -577,7 +642,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/13.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M14",
@@ -590,7 +656,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/14.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M15",
@@ -603,7 +670,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/15.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M16",
@@ -616,7 +684,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/16.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M17",
@@ -629,7 +698,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/17.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M18",
@@ -642,7 +712,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/18.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M19",
@@ -655,7 +726,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/19.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M20",
@@ -668,7 +740,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/20.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M21",
@@ -681,7 +754,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/21.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M22",
@@ -694,7 +768,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/22.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M23",
@@ -707,7 +782,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/23.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M24",
@@ -720,7 +796,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/24.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M25",
@@ -733,7 +810,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/25.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M26",
@@ -746,7 +824,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/26.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M27",
@@ -759,7 +838,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/27.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M28",
@@ -772,7 +852,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/28.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M29",
@@ -785,7 +866,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/29.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M30",
@@ -798,7 +880,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/30.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M31",
@@ -811,7 +894,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/31.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M32",
@@ -824,7 +908,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/32.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M33",
@@ -837,7 +922,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/33.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M34",
@@ -850,7 +936,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/34.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M35",
@@ -863,7 +950,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/35.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M36",
@@ -876,7 +964,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/36.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M37",
@@ -889,7 +978,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/37.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M38",
@@ -902,7 +992,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/38.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M39",
@@ -915,7 +1006,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/39.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M40",
@@ -928,7 +1020,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/40.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M41",
@@ -941,7 +1034,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/41.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M42",
@@ -954,7 +1048,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/42.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M43",
@@ -967,7 +1062,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/43.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M44",
@@ -980,7 +1076,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/44.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M45",
@@ -993,7 +1090,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/45.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M46",
@@ -1006,7 +1104,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/46.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M47",
@@ -1019,7 +1118,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/47.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M48",
@@ -1032,7 +1132,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/48.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "M49",
@@ -1045,7 +1146,8 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/memes/49.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": []
   },
   {
    "n": "P1",
@@ -1063,7 +1165,11 @@
     "c30-plano-parto/slide5.png",
     "c30-plano-parto/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "P2",
@@ -1081,7 +1187,11 @@
     "c31-dor-parto/slide5.png",
     "c31-dor-parto/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "P3",
@@ -1099,7 +1209,11 @@
     "c32-quem-cuida/slide5.png",
     "c32-quem-cuida/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "P4",
@@ -1117,7 +1231,11 @@
     "c33-barriga-nao-volta/slide5.png",
     "c33-barriga-nao-volta/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "P5",
@@ -1135,7 +1253,11 @@
     "c34-dor-nao-normal/slide5.png",
     "c34-dor-nao-normal/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "paulagripp",
+    "vittalicesaude"
+   ]
   },
   {
    "n": "P6",
@@ -1153,7 +1275,11 @@
     "c35-sentir-tudo/slide5.png",
     "c35-sentir-tudo/slide6.png"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "paulagripp",
+    "vittalicesaude"
+   ]
   },
   {
    "n": "P7",
@@ -1166,7 +1292,11 @@
    "midia": [
     "r30-vai-doer.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "P8",
@@ -1179,7 +1309,11 @@
    "midia": [
     "r31-plano-parto.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "P9",
@@ -1192,7 +1326,11 @@
    "midia": [
     "r32-quem-cuida.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "P10",
@@ -1205,7 +1343,11 @@
    "midia": [
     "r33-barriga.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "P11",
@@ -1218,7 +1360,11 @@
    "midia": [
     "r34-dor-nao-normal.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "paulagripp",
+    "vittalicesaude"
+   ]
   },
   {
    "n": "P12",
@@ -1231,7 +1377,11 @@
    "midia": [
     "r35-sentir-tudo.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "paulagripp",
+    "vittalicesaude"
+   ]
   },
   {
    "n": "KJ01",
@@ -1244,7 +1394,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/juliana-01.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "KJ02",
@@ -1257,7 +1411,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/juliana-02.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "KJ03",
@@ -1270,7 +1428,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/juliana-03.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "KJ04",
@@ -1283,7 +1445,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/juliana-04.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "julianachalupe",
+    "gruponascer"
+   ]
   },
   {
    "n": "KP01",
@@ -1296,7 +1462,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/patricia-01.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "KP02",
@@ -1309,7 +1479,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/patricia-02.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "KP03",
@@ -1322,7 +1496,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/patricia-03.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "KP04",
@@ -1335,7 +1513,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/patricia-04.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "nutrigeston",
+    "boagravidez"
+   ]
   },
   {
    "n": "KL01",
@@ -1348,7 +1530,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/paula-01.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "paulagripp",
+    "vittalicesaude"
+   ]
   },
   {
    "n": "KL02",
@@ -1361,7 +1547,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/paula-02.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "paulagripp",
+    "vittalicesaude"
+   ]
   },
   {
    "n": "KL03",
@@ -1374,7 +1564,11 @@
    "midia": [
     "https://qkherjtsvakmpkxebuwy.supabase.co/storage/v1/object/public/bt-ig-media/cortes/paula-03.mp4"
    ],
-   "status": "PRONTO"
+   "status": "PRONTO",
+   "colaboradores": [
+    "paulagripp",
+    "vittalicesaude"
+   ]
   }
  ]
 }

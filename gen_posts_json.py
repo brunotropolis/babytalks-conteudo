@@ -27,6 +27,14 @@ async def go():
           return out;
         }""")
         await b.close()
+    # marcação (collab) por post — base em post_marcacoes.json
+    marc = {}
+    mp = D/"post_marcacoes.json"
+    if mp.exists():
+        try: marc = json.loads(mp.read_text(encoding="utf-8"))
+        except Exception: marc = {}
+    for p in posts:
+        p["colaboradores"] = marc.get(str(p["n"]), [])
     # preserva o writeback do studio (status POSTADO + permalink + postado_em)
     pj = D/"posts.json"
     if pj.exists():
