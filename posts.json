@@ -1,6 +1,6 @@
 {
  "gerado_de": "calendario.html",
- "total": 99,
+ "total": 101,
  "posts": [
   {
    "n": 1,
@@ -461,6 +461,39 @@
    "status": "PRONTO",
    "colaboradores": [
     "dosanjosfotografia"
+   ]
+  },
+  {
+   "n": "L6",
+   "fase": "05",
+   "fase_titulo": "Lives de aquecimento",
+   "formato": "Reels",
+   "pilar": "palestrante",
+   "hook": "Alline Vieira (Vitallice) · Live sobre cuidar de você na gestação · 21/07, 15h00",
+   "caption": "A gestação transforma tudo: o corpo, a rotina, o jeito de sentir. E no meio disso vem a dúvida de sempre: como me cuidar de verdade agora? 💛\n\nCada fase pede um cuidado diferente, e você merece viver isso com mais conforto e presença, entendendo o que está acontecendo com o seu corpo.\n\nTem live aqui no @babytalks.evento com a Alline Vieira, fisioterapeuta pélvica e doula, sobre como atravessar a gestação com mais leveza e conexão. Ela vai falar do corpo que muda e de como se cuidar em cada etapa.\n\nAo vivo e de graça. Ativa o lembrete e já deixa a sua dúvida nos comentários que a gente leva pra ela. 👇\n\nEm parceria com a Vitallice 💙\n\n#BabyTalks #Gestante #Gestação #Autocuidado #Maternidade #Curitiba\n\n@draallinevieira.fisio @vittalicesaude",
+   "midia": [
+    "lives/reels-alline-v1.mp4"
+   ],
+   "status": "PRONTO",
+   "colaboradores": [
+    "draallinevieira.fisio",
+    "vittalicesaude"
+   ]
+  },
+  {
+   "n": "L7",
+   "fase": "05",
+   "fase_titulo": "Lives de aquecimento",
+   "formato": "Reels",
+   "pilar": "palestrante",
+   "hook": "Dr. Rafael Bruns (Medicina Fetal) · Live sobre ultrassom e gestação · 30/07, 14h00",
+   "caption": "Cada ultrassom vem cheio de expectativa e, junto, um monte de dúvida: o que esse exame mostra? Está tudo bem com o meu bebê? Em qual semana faço cada um? 🤍\n\nSão perguntas que quase toda gestante tem e nem sempre encontra uma resposta clara e tranquila.\n\nQuinta, 30/07, às 14h, tem live aqui no @babytalks.evento com o Dr. Rafael Bruns, médico especialista em Medicina Fetal e Gineco-Obstetra. Ele vai explicar o que cada ultrassom revela e responder as principais dúvidas da gestação.\n\nAo vivo e de graça. Ativa o lembrete e já deixa a sua dúvida nos comentários que a gente leva pra ele. 👇\n\n📅 Quinta, 30/07, às 14h · aqui no Instagram\n\nEm parceria com o Dr. Rafael Bruns 💙\n\n#BabyTalks #Gestante #Ultrassom #MedicinaFetal #Gestação #Curitiba\n\n@dr.rafaelbruns_cirurgiafetal",
+   "midia": [
+    "lives/reels-rafael-v1.mp4"
+   ],
+   "status": "PRONTO",
+   "colaboradores": [
+    "dr.rafaelbruns_cirurgiafetal"
    ]
   },
   {
