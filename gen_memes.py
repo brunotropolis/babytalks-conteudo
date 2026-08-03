@@ -48,7 +48,7 @@ HASH = [
  "#BabyTalks #Gestante #Gravidez #Gravidinha #MãeDeBebê #Curitiba",
 ]
 
-EVENT = ("Ah, e se você é de Curitiba: dia 22/08 tem um encontro especial pra "
+EVENT = ("Ah, e se você é de Curitiba: em breve tem um encontro especial pra "
          "te preparar pra chegada do bebê. 💛")
 
 def cap_for(i):
